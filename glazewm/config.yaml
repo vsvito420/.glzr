@@ -2,11 +2,11 @@ general:
   # Commands to run when the WM has started. This is useful for running a
   # script or launching another application.
   # Example: The below command launches Zebar.
-  startup_commands: ['shell-exec zebar']
-    
+#  startup_commands: ['shell-exec zebar']
+
   # Commands to run just before the WM is shutdown.
   # Example: The below command kills Zebar.
-  shutdown_commands: ['shell-exec taskkill /IM zebar.exe /F']
+#  shutdown_commands: ['shell-exec taskkill /IM zebar.exe /F']
 
   # Commands to run after the WM config is reloaded.
   config_reload_commands: []
@@ -29,14 +29,14 @@ general:
 
 gaps:
   # Gap between adjacent windows.
-  inner_gap: '6px'
+  inner_gap: '2px'
 
   # Gap between windows and the screen edge.
   outer_gap:
-    top: '50px'
-    right: '10px'
-    bottom: '10px'
-    left: '10px'
+    top: '2glglpx'
+    right: '2px'
+    bottom: '-5px'
+    left: '2px'
 
 window_effects:
   # Visual effects to apply to the focused window.
@@ -45,13 +45,30 @@ window_effects:
     # ** Exclusive to Windows 11 due to API limitations.
     border:
       enabled: true
-      color: '#ff0000'
+      color: '#8dbcff'
+
+    # Remove the title bar from the window's frame.
+    # ** Exclusive to Windows 11 due to API limitations.
+    hide_title_bar:
+      enabled: false
+
+    # Change the corner style of the window's frame.
+    # ** Exclusive to Windows 11 due to API limitations.
+    corner_style:
+      enabled: false
+      # Allowed values: 'square', 'rounded', 'small_rounded'.
+      style: 'small_rounded'
 
   # Visual effects to apply to non-focused windows.
   other_windows:
     border:
       enabled: true
-      color: '#000000'
+      color: '#a1a1a1'
+    hide_title_bar:
+      enabled: false
+    corner_style:
+      enabled: true
+      style: 'small_rounded'
 
 window_behavior:
   # New windows are created in this state whenever possible.
@@ -92,7 +109,7 @@ window_rules:
   - commands: ['ignore']
     match:
       # Ignores any Zebar windows.
-      - window_process: { equals: 'zebar' }
+    #  - window_process: { equals: 'zebar' }
 
       # Ignores picture-in-picture windows for browsers.
       - window_title: { regex: '[Pp]icture.in.[Pp]icture' }
@@ -216,6 +233,7 @@ keybindings:
     bindings: ['alt+enter']
   - commands: ['shell-exec powershell']
     bindings: ['alt+shift+enter']
+
 
   # Focus the next/previous workspace defined in `workspaces` config.
   - commands: ['focus --next-workspace']

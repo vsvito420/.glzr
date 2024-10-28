@@ -5,7 +5,7 @@
   "shownInTaskbar": false,
   "focused": false,
   "resizable": false,
-  "transparent": true,
+  "transparent": false,
   "defaultPlacements": [
     {
       "anchor": "top_left",

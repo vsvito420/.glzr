@@ -1,16 +1,8 @@
-[2m2024-10-08T06:37:47.077050Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-11T06:14:00.985574Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-14T07:47:43.600847Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m No common ancestor between containers.
-[2m2024-10-17T11:53:14.309500Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-18T08:29:13.265404Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 1 column 9
-[2m2024-10-18T08:29:15.402092Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m general: missing field `cursor_jump` at line 1 column 9
-[2m2024-10-18T11:31:27.218980Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:/Programme/Zebar/zebar.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:/Programme/Zebar/zebar.exe\"'."
-[2m2024-10-18T11:31:37.255125Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:/Programme/TeamViewer/TeamViewer.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:/Programme/TeamViewer/TeamViewer.exe\"'."
-[2m2024-10-18T11:31:38.322182Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:\\Users\\v.skolan\\AppData\\Local\\pascom Client/pascom Client.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:\\Users\\v.skolan\\AppData\\Local\\pascom Client/pascom Client.exe\"'."
-[2m2024-10-18T11:31:39.270722Z[0m [31mERROR[0m [2mglazewm::common::commands::shell_exec[0m[2m:[0m [3merr_message[0m[2m=[0m"Failed to execute '\"C:/Programme/Microsoft/Edge/Application/msedge.exe\"'.\n\nError: Command doesn't have an ending `\"`: '\"C:/Programme/Microsoft/Edge/Application/msedge.exe\"'."
-[2m2024-10-18T11:33:09.505998Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-18T12:23:14.325329Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-19T13:24:42.083854Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-20T19:43:28.081087Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-21T06:24:24.199922Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
-[2m2024-10-21T11:20:47.893809Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-04T22:33:35.790554Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-07T20:55:31.543736Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-07T20:55:42.177773Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-11T21:04:54.090221Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-18T17:55:43.886856Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-23T20:04:01.091078Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-24T20:40:15.466228Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
+[2m2024-10-24T22:13:44.625647Z[0m [31mERROR[0m [2mglazewm[0m[2m:[0m Another instance of the application is already running.
